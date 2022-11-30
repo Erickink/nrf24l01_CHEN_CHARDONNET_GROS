@@ -9,6 +9,8 @@ A lot of the file that we are using are from https://github.com/TobleMiner/kerne
 ## Installation
 On a raspberrypi : 
 - ```git clone https://github.com/Erickink/nrf24l01_CHEN_CHARDONNET_GROS.git``` clone our files
+- ```sudo cp nrf24l01.ko /lib/modules/5.10.103-v7l+``` so we don't need to do "insmod" everytime
+- ```sudo depmod```
 - ```sudo dtoverlay nrf24l01.dtbo```
 - ```sudo su```
 
