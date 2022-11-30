@@ -30,6 +30,10 @@ On a raspberrypi :
 - ```sudo dtoverlay nrf24l01.dtbo```
 - ```sudo su```
 
+Once everything are installed, when you want to run again, just run :
+- ```sudo dtoverlay nrf24l01.dtbo```
+- - ```sudo su```
+
 ## How to use it
 On the first Pi run as root:
 
