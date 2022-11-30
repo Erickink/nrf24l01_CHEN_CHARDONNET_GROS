@@ -7,7 +7,9 @@ Linux project for ECE Engineering School
 A lot of the file that we are using are from https://github.com/TobleMiner/kernelstuff/tree/master/modules/nrf24l01 by TobleMiner
 
 ## Installation
-On a raspberrypi : 
+On a raspberrypi :
+- ```sudo apt-get update -y``` and ```sudo apt-get full-upgrade -y``` then reboot with ```sudo reboot```
+- ```sudo apt-get install git-all -y``` to install git
 - ```git clone https://github.com/Erickink/nrf24l01_CHEN_CHARDONNET_GROS.git``` clone our files
 - ```sudo cp nrf24l01.ko /lib/modules/5.10.103-v7l+``` so we don't need to do "insmod" everytime
 - ```sudo depmod```
