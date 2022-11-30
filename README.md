@@ -22,7 +22,7 @@ On a raspberrypi :
 - ```cd kernelstuff/modules/nrf24l01``` go to nrf24l01 directory
 - There is some error in the "nrf24l01_core.c" file : ```nano nrf24l01_core.c```
 - ^W (Control + W) in "nano" and search "use_single"
-- modify "use_single_rw = 1," to "use_single_read = 1, use_single_write = 1,"
+- modify ".use_single_rw = 1," to ".use_single_read = 1, .use_single_write = 1,"
 - ```make``` to compile
 - ```sudo cp nrf24l01.ko /lib/modules/5.10.103-v7l+``` so we don't need to do "insmod" everytime
 - ```sudo depmod```
