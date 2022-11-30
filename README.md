@@ -6,6 +6,9 @@ Linux project for ECE Engineering School
 ## Source
 A lot of the file that we are using are from https://github.com/TobleMiner/kernelstuff/tree/master/modules/nrf24l01 by TobleMiner
 
+## Test
+https://www.youtube.com/watch?app=desktop&v=dBXHEkK79WU&feature=youtu.be
+
 ## Installation
 On a raspberrypi :
 - ```sudo apt-get update -y``` and ```sudo apt-get full-upgrade -y``` then reboot with ```sudo reboot```
