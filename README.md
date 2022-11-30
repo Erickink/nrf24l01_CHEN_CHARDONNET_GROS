@@ -17,7 +17,7 @@ OR
 On a raspberrypi :
 - ```sudo apt-get update -y``` and ```sudo apt-get full-upgrade -y``` then reboot with ```sudo reboot```
 - ```sudo apt-get install raspberrypi-kernel-headers``` to install kernel-headers
-- ```sudo apt-get install git-all``` to install git
+- ```sudo apt-get install git-all -y``` to install git
 - ```git clone https://github.com/TobleMiner/kernelstuff.git``` clone TobleMiner kernelstuff git
 - ```cd kernelstuff/modules/nrf24l01``` go to nrf24l01 directory
 - There is some error in the "nrf24l01_core.c" file : ```nano nrf24l01_core.c```
